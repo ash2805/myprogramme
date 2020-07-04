@@ -4,7 +4,8 @@ void main()
 {
 clrscr();
 char ch;
-
+cout<<"check your character is vowels or not\n";
+cin>>ch;
 switch(ch)
 {
   case 'a':cout<<ch<<"is a vowel";break;
@@ -15,5 +16,3 @@ switch(ch)
   }
   getch();
 }
-
-
